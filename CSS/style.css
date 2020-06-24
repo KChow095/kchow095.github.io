@@ -98,27 +98,35 @@ header a:hover{
 /*Experience*/
 
 #experience {
-    margin-top:20px;
+    padding-top: 50px;
     height: 70vh;
-    padding-left: 20%;
-    padding-right: 20%;
 }
-
 #experience h2{
     text-align: center;
 }
-#experience .box{
-    text-align:justify;
-    width:20%
-    padding:10px; 
+#experience h3{
+    text-align: center;
 }
-
-#experience .box img{
+#experience .box1{
+    padding-top: 20px;
+    padding-left: 15%;
+    text-align:justify;
+    width:70%
+}
+#experience .box1 img{
     margin-right:20px;
     width:200px;
 }
-
-
+#experience .box2{
+    padding-top: 30px;
+    padding-left: 15%;
+    text-align:justify;
+    width:70%
+}
+#experience .box2 img{
+    margin-right:20px;
+    width:200px;
+}
 /*footer*/
 footer{
     padding:20px;
