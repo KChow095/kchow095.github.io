@@ -1,0 +1,149 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #6C6F71 
+    line-height: 1.5;
+    padding:0;
+}
+/*Global - Variabled that apply to all elements*/
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+/*header*/
+header{
+    background:#475D70;
+    color:#ffffff;
+    padding-top:15px;
+    min-height:55px;
+    border-bottom:#705A47 3px solid;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px;
+}
+
+header ul{
+    margin:0;
+    padding:0;
+}
+header li{
+    float:left;
+    display:inline;
+    padding:0 20px 20px;
+}
+header #branding{
+    float:left;
+}
+header #branding .box img{
+    width: 50px;
+    height: auto;
+}
+header nav{
+    float:right;
+    margin-top:13px;
+}
+header a:hover{
+    color: #cccccc;
+    font-weight:bold;
+}
+
+/*Showcase*/
+#showcase{
+    text-align:center;
+    color:#ffffff;
+    margin:auto;
+    height: 56vh;
+    padding-top: 17%;
+    background-image: url(../Images/green-iphone-5c-near-macbook-163143.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#showcase h1{
+    font-size:55px;
+}
+
+#showcase p{
+    font-size:20px;
+}
+
+/*About*/
+#about{
+    padding-top: 50px;
+    background-color:#f4f4f4;
+    height: 70vh;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+#about h2{
+    text-align: center;
+}
+#about p{
+    text-align:justify;
+    font-size:20px;
+    padding-top: 50px;
+}
+#about .box img{
+    margin-left: 20px;
+    width:300px;
+    padding-right:50px;
+    padding-bottom: 50px;
+}
+
+/*Experience*/
+
+#experience {
+    margin-top:20px;
+    height: 70vh;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#experience h2{
+    text-align: center;
+}
+#experience .box{
+    text-align:justify;
+    width:20%
+    padding:10px; 
+}
+
+#experience .box img{
+    margin-right:20px;
+    width:200px;
+}
+
+
+/*footer*/
+footer{
+    padding:20px;
+    margin-top:20px;
+    color: #ffffff;
+    background-color: #705A47;
+    text-align: center;
+}
+
+/*Media Queries for hidding items if site is loaded on different devices*/
+@media(max-width:768px){
+    header #branding,
+    header nav,
+    header nav li;
+    #boxes .box{
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+        
+    header{
+        padding-bottom:20px;
+    }
+    
+    #showcase h1{
+        margin:40px;
+    }
+}
