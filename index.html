@@ -8,6 +8,7 @@
         <meta name = "kewords" content = "Software Developer">
         <meta name = "author" content = "Karlen Chow">
         <title>Karlen Chow</title>
+        <script src="https://kit.fontawesome.com/43adc19e09.js" crossorigin="anonymous"></script>
         <link rel = "shortcut icon" type = "image/jpg" href = "./Images/Logo.jpg">
         <link rel="stylesheet" href = "./CSS/style.css">
     </head>
@@ -24,6 +25,8 @@
                         <li><a href = "#showcase">Home</a> </li>
                         <li><a href = "#about">About</a> </li>
                         <li><a href = "#experience">Work Experience</a> </li>
+                        <li><a href = "#projects">Projects</a> </li>
+                        <li><a href = "#contact">Contact</a> </li>
                     </ul>
                 </nav>
             </div>
@@ -31,13 +34,15 @@
         <section id = "showcase">
             <div class = "containter">
                 <h1>Hi There</h1>
-                <p>It's great to meet you, lets work together.</p>
+                <p>It's great to meet you, thanks for stopping by.</p>
         </section>
         <section id = "about">
             <div class = "containter">
                 <div class = "box">
                     <h2>About Me</h2>
                     <p><img src="./Images/Self.png" align = "right">I am currently a software engineering student and I am passionate about working on creative projects and finding simple technological solutions to complex problems.  When I am not coding, I am probably out for a jog, gone for a hike, or discovering new places around the globe.  Feel free to send me a message if you would like to get in touch!</p>
+                    <a href="https://www.linkedin.com/in/karlenchow/" class="fab fa-linkedin"></a>
+                    <a href="https://github.com/KChow095" class="fab fa-github-square"></a>
                 </div>
         </section>
         <section id = "experience">
@@ -52,9 +57,46 @@
                     <p><img src="./Images/husky-energy-logo-banner-2048x1104.png" align = "left">My team and I were responsible for determining which captial projects were profitable to purse and manage the construction of oil sites. During this role, I assesed viability of restoring oil wells through analyzing cash flows.  I also decreased testing costs by 50% through designing a database to track oil testing properties.</p>
                 </div>
         </section>
-        
+        <section id = "projects">
+            <div class = "grid-containter">
+                <h2>Projects</h2>
+                <div class = "grid-item1">
+                    <h3>City of Calgary Traffic Database</h3>
+                    <p><img src="./Images/TrafficDBGUI.JPG" align = "left">A database for Calgary's traffic incidents and volume written in python, which includes a graphical user interface utilizing the Model View Controller architecture.  Main functionalities include sorting, modelling, and inserting new entries through a MongoDB database, as well as plotting locations on a folium map.</p>
+                    <a href="https://github.com/KChow095/Calgary-Traffic-Database"><span class="label">Learn more here</span></a></li>
+                </div>
+                <div class = "grid-item2">
+                    <h3>Final Drive Senior Designer</h3>
+                    <p><img src="./Images/40321243_1954437841286254_4882507878516129792_o.jpg" align = "left">Designed the final drive system for the University's formula 1 team to complete at the international FSAE competition at Lincoln, Nebraska.  I led a small team to find continuous improvements to the system where we managed to trim a total of 1.1kg off the 2018 vehicle.  During the same year, our team placed 7th out of 82 teams in design.</p>
+                    <a href="https://www.schulichracing.ca/"><span class="label">Learn more here</span></a></li>
+                </div>
+            </div>
+        </section>
+        <section id = "contact">
+            <div class="grid-container">
+                <div class = "grid-item1">
+                    <h2>Contact Me</h2>
+                    <div class = "box1">
+                        <form method = "post" action = "mailto:karlenchow@gmail.com" enctype="text/plain">
+                            <input type="text" id="name" name="name" placeholder="Name.." required>
+
+                            <input type = "text" id="email" name="email" placeholder="Email.." required>
+
+                            <textarea id="message" name="subject" placeholder="Message.." style="height:281px"></textarea>
+                            <input type="submit" value = "Submit">
+                        </form>
+                    </div>
+                </div>
+                <div class = "grid-item2">
+                    <h2>Resume</h2>
+                    <div class = "box1">
+                        <iframe src = "https://drive.google.com/file/d/1CAW54E06BZL-tSGxP1liAERZnuHHB082/preview" width="370" height="470"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
         <footer>
-            <p> Built by Karlen, Copyright &copy; 2020</p> 
+            <p> Built by Karlen, 2020</p> 
         </footer>
     </body>
 </html>
