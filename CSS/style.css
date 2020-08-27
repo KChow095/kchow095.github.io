@@ -1,7 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: #6C6F71 
+    color: #6C6F71; 
     line-height: 1.5;
     padding:0;
 }
@@ -84,7 +84,7 @@ header a:hover{
     text-align: center;
 }
 #about p{
-    text-align:justify;
+    text-align:left;
     font-size:20px;
     padding-top: 50px;
 }
@@ -92,7 +92,14 @@ header a:hover{
     margin-left: 20px;
     width:300px;
     padding-right:50px;
+    padding-left:50px;
     padding-bottom: 50px;
+}
+
+#about .fab{
+    font-size: 30px;
+    color: grey;
+    text-decoration: none;
 }
 
 /*Experience*/
@@ -100,6 +107,7 @@ header a:hover{
 #experience {
     padding-top: 50px;
     height: 70vh;
+    font-size:17px;
 }
 #experience h2{
     text-align: center;
@@ -127,6 +135,99 @@ header a:hover{
     margin-right:20px;
     width:200px;
 }
+
+/*Projects*/
+
+#projects {
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    background-color:#f4f4f4;
+    padding-top: 50px;
+    height: 80vh;
+    font-size:17px;
+}
+#projects h2{
+    text-align: center;
+}
+#projects h3{
+    text-align: center;
+}
+#projects .grid-item1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15%;
+    text-align:justify;
+    width:70%;
+}
+#projects .grid-item1 img{
+    margin-right:20px;
+    width:300px;
+}
+#projects .grid-item2{
+    padding-top: 50px;
+    padding-bottom: 15px;
+    padding-left: 15%;
+    text-align:justify;
+    width:70%;
+}
+#projects .grid-item2 img{
+    margin-right:20px;
+    width:300px;
+}
+/*Contact*/
+
+#contact .grid-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px, 1fr));
+}
+#contact .grid-item1{
+    background-color:#D0D0D0;
+    float:left;
+}
+#contact .grid-item1 .box1{
+    display:grid;
+    place-items: center;
+    padding-bottom: 20px;
+    padding-left:20px
+}
+#contact .grid-item2{
+    background-color:#A9A9A9;
+    float:left;
+}
+#contact h2{
+    text-align: center;
+}
+#contact .grid-item2 .box1{
+    display:grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+#contact input[type=text], select, textarea{
+    width:90%;
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius:4px;
+    box-sizing:border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize:vertical;
+}
+
+#contact input[type = submit]{
+    background-color: #82ba99;
+    color:black;
+    padding:12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact input[type=submit]:hover{
+    background-color:#6e9c81;
+}
+
 /*footer*/
 footer{
     padding:20px;
@@ -137,21 +238,66 @@ footer{
 }
 
 /*Media Queries for hidding items if site is loaded on different devices*/
-@media(max-width:768px){
+@media all and (max-width:768px){
     header #branding,
     header nav,
-    header nav li;
+    header nav li,
     #boxes .box{
         float:none;
         text-align:center;
         width:100%;
-    }
-        
+        margin-top: 10px;
+    }   
     header{
         padding-bottom:20px;
     }
-    
+
+    header #branding .box img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 15%;
+    }
     #showcase h1{
+        padding-top:50px;
         margin:40px;
+    }
+    #about{
+        float:none;
+        text-align:center;
+        padding-right:10%;
+        padding-left:10%;
+        height:95vh;
+        vertical-align: top;
+        display: inline-block;
+
+    }
+    #about .box img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+    #experience {
+        float:none;
+        text-align:center;
+        height: 100vh;
+        font-size:17px;
+    }
+    #experience .box1{
+        text-align:center;
+        width:70%
+    }
+    #experience .box1 img{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width:50%
+    }
+    #projects {
+        float:none;
+        text-align:center;
+        height: 140vh;
+        font-size:17px;
     }
 }
