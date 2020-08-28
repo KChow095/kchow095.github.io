@@ -76,24 +76,26 @@ header a:hover{
 #about{
     padding-top: 50px;
     background-color:#f4f4f4;
-    height: 70vh;
-    padding-left: 30%;
-    padding-right: 30%;
+    height: auto;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 15%;
 }
 #about h2{
     text-align: center;
 }
 #about p{
+    padding-top:10%;
     text-align:left;
     font-size:20px;
-    padding-top: 50px;
 }
 #about .box img{
-    margin-left: 20px;
-    width:300px;
+    padding-top:10%;
+    float:right;
+    width:40%;
     padding-right:50px;
     padding-left:50px;
-    padding-bottom: 50px;
+    padding-bottom: 10%;
 }
 
 #about .fab{
@@ -106,7 +108,8 @@ header a:hover{
 
 #experience {
     padding-top: 50px;
-    height: 70vh;
+    height: auto;
+    padding-bottom: 10%;
     font-size:17px;
 }
 #experience h2{
@@ -118,20 +121,22 @@ header a:hover{
 #experience .box1{
     padding-top: 20px;
     padding-left: 15%;
-    text-align:justify;
-    width:70%
+    text-align:left;
+    width:70%;
 }
 #experience .box1 img{
+    float:left;
     margin-right:20px;
     width:200px;
 }
 #experience .box2{
     padding-top: 30px;
     padding-left: 15%;
-    text-align:justify;
+    text-align:left;
     width:70%
 }
 #experience .box2 img{
+    float:left;
     margin-right:20px;
     width:200px;
 }
@@ -140,10 +145,10 @@ header a:hover{
 
 #projects {
     display:grid;
-    grid-template-rows: 1fr 1fr;
     background-color:#f4f4f4;
     padding-top: 50px;
-    height: 80vh;
+    padding-bottom: 10%;
+    height: auto;
     font-size:17px;
 }
 #projects h2{
@@ -152,25 +157,24 @@ header a:hover{
 #projects h3{
     text-align: center;
 }
-#projects .grid-item1{
+#projects .box1{
     padding-top: 15px;
-    padding-bottom: 15px;
     padding-left: 15%;
-    text-align:justify;
+    padding-bottom:5%;
+    text-align:left;
     width:70%;
 }
-#projects .grid-item1 img{
+#projects .box1 img{
     margin-right:20px;
     width:300px;
 }
-#projects .grid-item2{
-    padding-top: 50px;
-    padding-bottom: 15px;
+#projects .box2{
     padding-left: 15%;
-    text-align:justify;
+    padding-bottom: 100px;
+    text-align:left;
     width:70%;
 }
-#projects .grid-item2 img{
+#projects .box2 img{
     margin-right:20px;
     width:300px;
 }
@@ -230,8 +234,7 @@ header a:hover{
 
 /*footer*/
 footer{
-    padding:20px;
-    margin-top:20px;
+    padding:10px;
     color: #ffffff;
     background-color: #705A47;
     text-align: center;
@@ -241,8 +244,7 @@ footer{
 @media all and (max-width:768px){
     header #branding,
     header nav,
-    header nav li,
-    #boxes .box{
+    header nav li{
         float:none;
         text-align:center;
         width:100%;
@@ -267,37 +269,70 @@ footer{
         text-align:center;
         padding-right:10%;
         padding-left:10%;
-        height:95vh;
-        vertical-align: top;
-        display: inline-block;
-
+    }
+    #about p{
+        text-align:center;
+        clear:both;
+        font-size:20px;
     }
     #about .box img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
         width: 75%;
+        padding-bottom:0%;
     }
-    #experience {
+    #experience{
         float:none;
         text-align:center;
-        height: 100vh;
         font-size:17px;
     }
     #experience .box1{
-        text-align:center;
-        width:70%
+        text-align: center;
     }
     #experience .box1 img{
-        display:block;
-        margin-left:auto;
-        margin-right:auto;
-        width:50%
+        float:none;
+        width:200px;
+        padding-left:20px;
+    }
+    #experience .box2{
+        text-align:center;
+        padding-bottom:10%;
+    }
+    #experience .box2 img{
+        float:none;
+        width:200px;
+        padding-left:20px;
     }
     #projects {
         float:none;
         text-align:center;
-        height: 140vh;
         font-size:17px;
+    }
+    #projects .box1{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left:10%;
+        text-align:center;
+        width:80%;
+    }
+    #projects .box2{
+        padding-top: 50px;
+        text-align:center;
+        padding-bottom:10%;
+        padding-left:10%;
+        width:80%;
+    }
+    #projects .box1 img{
+        float:none;
+        padding-left:5%;
+        width: 80%;
+    }
+    #projects .box2 img{
+        float:none;
+        width: 80%;
+    }
+    footer{
+        padding:10px;
+        color: #ffffff;
+        background-color: #705A47;
+        text-align: center;
     }
 }
