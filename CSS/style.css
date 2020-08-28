@@ -57,8 +57,9 @@ header a:hover{
     text-align:center;
     color:#ffffff;
     margin:auto;
-    height: 56vh;
+    height: auto;
     padding-top: 17%;
+    padding-bottom:17%;
     background-image: url(../Images/green-iphone-5c-near-macbook-163143.jpg);
     background-size: cover;
     background-position: center;
@@ -253,12 +254,14 @@ footer{
     header{
         padding-bottom:20px;
     }
-
     header #branding .box img{
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 15%;
+    }
+    #showcase{
+        height:50vh;
     }
     #showcase h1{
         padding-top:50px;
