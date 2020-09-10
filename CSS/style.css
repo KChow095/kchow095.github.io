@@ -242,7 +242,7 @@ footer{
 }
 
 /*Media Queries for hidding items if site is loaded on different devices*/
-@media all and (max-width:768px){
+@media only screen and (max-width:768px){
     header #branding,
     header nav,
     header nav li{
