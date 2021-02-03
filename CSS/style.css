@@ -1,344 +1,346 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: #6C6F71; 
-    line-height: 1.5;
-    padding:0;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #6c6f71;
+  line-height: 1.5;
+  padding: 0;
 }
 /*Global - Variabled that apply to all elements*/
-.container{
-    width:80%;
-    margin:auto;
-    overflow:hidden;
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 /*header*/
-header{
-    background:#475D70;
-    color:#ffffff;
-    padding-top:15px;
-    min-height:55px;
-    border-bottom:#705A47 3px solid;
+header {
+  background: #475d70;
+  color: #ffffff;
+  padding-top: 15px;
+  min-height: 55px;
+  border-bottom: #705a47 3px solid;
 }
 
-header a{
-    color:#ffffff;
-    text-decoration:none;
-    text-transform: uppercase;
-    font-size:16px;
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
-header ul{
-    margin:0;
-    padding:0;
+header ul {
+  margin: 0;
+  padding: 0;
 }
-header li{
-    float:left;
-    display:inline;
-    padding:0 20px 20px;
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 20px;
 }
-header #branding{
-    float:left;
+header #branding {
+  float: left;
 }
-header #branding .box img{
-    width: 50px;
-    height: auto;
+header #branding .box img {
+  width: 50px;
+  height: auto;
 }
-header nav{
-    float:right;
-    margin-top:13px;
+header nav {
+  float: right;
+  margin-top: 13px;
 }
-header a:hover{
-    color: #cccccc;
-    font-weight:bold;
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
 }
 
 /*Showcase*/
-#showcase{
-    text-align:center;
-    color:#ffffff;
-    margin:auto;
-    height: auto;
-    padding-top: 17%;
-    padding-bottom:17%;
-    background-image: url(../Images/green-iphone-5c-near-macbook-163143.jpg);
-    background-size: cover;
-    background-position: center;
+#showcase {
+  text-align: center;
+  color: #ffffff;
+  margin: auto;
+  height: auto;
+  padding-top: 17%;
+  padding-bottom: 17%;
+  background-image: url(../Images/green-iphone-5c-near-macbook-163143.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-#showcase h1{
-    font-size:55px;
+#showcase h1 {
+  font-size: 55px;
 }
 
-#showcase p{
-    font-size:20px;
+#showcase p {
+  font-size: 20px;
 }
 
 /*About*/
-#about{
-    padding-top: 50px;
-    background-color:#f4f4f4;
-    height: auto;
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-bottom: 7%;
+#about {
+  padding-top: 50px;
+  background-color: #f4f4f4;
+  height: auto;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 7%;
 }
-#about h2{
-    text-align: center;
+#about h2 {
+  text-align: center;
 }
-#about p{
-    padding-top:5%;
-    text-align:left;
-    font-size:20px;
+#about p {
+  padding-top: 5%;
+  text-align: left;
+  font-size: 20px;
 }
-#about .box img{
-    padding-top:5%;
-    float:right;
-    width:40%;
-    padding-right:50px;
-    padding-left:50px;
-    padding-bottom: 10%;
+#about .box img {
+  padding-top: 5%;
+  float: right;
+  width: 35%;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 10%;
 }
 
-#about .fab{
-    font-size: 30px;
-    color: grey;
-    text-decoration: none;
+#about .fab {
+  font-size: 30px;
+  color: grey;
+  text-decoration: none;
 }
 
 /*Experience*/
 
 #experience {
-    padding-top: 50px;
-    height: auto;
-    padding-bottom: 10%;
-    font-size:17px;
+  padding-top: 50px;
+  height: auto;
+  padding-bottom: 10%;
+  font-size: 17px;
 }
-#experience h2{
-    text-align: center;
+#experience h2 {
+  text-align: center;
 }
-#experience h3{
-    text-align: center;
+#experience h3 {
+  text-align: center;
 }
-#experience .box1{
-    padding-top: 20px;
-    padding-left: 15%;
-    text-align:left;
-    width:70%;
+#experience .box1 {
+  padding-top: 20px;
+  padding-left: 15%;
+  text-align: left;
+  width: 70%;
 }
-#experience .box1 img{
-    float:left;
-    margin-right:20px;
-    width:200px;
+#experience .box1 img {
+  float: left;
+  margin-right: 20px;
+  width: 200px;
 }
-#experience .box2{
-    padding-top: 30px;
-    padding-left: 15%;
-    text-align:left;
-    width:70%
+#experience .box2 {
+  padding-top: 30px;
+  padding-left: 15%;
+  text-align: left;
+  width: 70%;
 }
-#experience .box2 img{
-    float:left;
-    margin-right:20px;
-    width:200px;
+#experience .box2 img {
+  float: left;
+  margin-right: 20px;
+  width: 200px;
 }
 
 /*Projects*/
 
 #projects {
-    display:grid;
-    background-color:#f4f4f4;
-    padding-top: 50px;
-    padding-bottom: 9%;
-    height: auto;
-    font-size:17px;
+  display: grid;
+  background-color: #f4f4f4;
+  padding-top: 50px;
+  padding-bottom: 9%;
+  height: auto;
+  font-size: 17px;
 }
-#projects h2{
-    text-align: center;
+#projects h2 {
+  text-align: center;
 }
-#projects h3{
-    text-align: center;
+#projects h3 {
+  text-align: center;
 }
-#projects .box1{
-    padding-top: 15px;
-    padding-left: 15%;
-    padding-bottom:5%;
-    text-align:left;
-    width:70%;
+#projects .box1 {
+  padding-top: 15px;
+  padding-left: 15%;
+  padding-bottom: 5%;
+  text-align: left;
+  width: 70%;
 }
-#projects .box1 img{
-    margin-right:20px;
-    width:300px;
+#projects .box1 img {
+  margin-right: 20px;
+  width: 300px;
 }
-#projects .box2{
-    padding-left: 15%;
-    padding-bottom: 100px;
-    text-align:left;
-    width:70%;
+#projects .box2 {
+  padding-left: 15%;
+  padding-bottom: 100px;
+  text-align: left;
+  width: 70%;
 }
-#projects .box2 img{
-    margin-right:20px;
-    width:300px;
+#projects .box2 img {
+  margin-right: 20px;
+  width: 300px;
 }
 /*Contact*/
 
-#contact .grid-container{
-    height: auto;
-    display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(360px, 1fr));
+#contact .grid-container {
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
 }
-#contact .grid-item1{
-    background-color:#D0D0D0;
-    float:left;
+#contact .grid-item1 {
+  background-color: #d0d0d0;
+  float: left;
 }
-#contact .grid-item1 .box1{
-    display:grid;
-    place-items: center;
-    padding-bottom: 20px;
-    padding-left:20px
+#contact .grid-item1 .box1 {
+  display: grid;
+  place-items: center;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
-#contact .grid-item2{
-    background-color:#A9A9A9;
-    float:left;
+#contact .grid-item2 {
+  background-color: #a9a9a9;
+  float: left;
 }
-#contact h2{
-    text-align: center;
+#contact h2 {
+  text-align: center;
 }
-#contact .grid-item2 .box1{
-    display:grid;
-    place-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 20px;
+#contact .grid-item2 .box1 {
+  display: grid;
+  place-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
 }
-#contact input[type=text], select, textarea{
-    width:90%;
-    padding:12px;
-    border: 1px solid #ccc;
-    border-radius:4px;
-    box-sizing:border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize:vertical;
-}
-
-#contact input[type = submit]{
-    background-color: #82ba99;
-    color:black;
-    padding:12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+#contact input[type="text"],
+select,
+textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-#contact input[type=submit]:hover{
-    background-color:#6e9c81;
+#contact input[type="submit"] {
+  background-color: #82ba99;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+  background-color: #6e9c81;
 }
 
 /*footer*/
-footer{
-    padding:10px;
-    color: #ffffff;
-    background-color: #705A47;
-    text-align: center;
+footer {
+  padding: 10px;
+  color: #ffffff;
+  background-color: #705a47;
+  text-align: center;
 }
 
 /*Media Queries for hidding items if site is loaded on different devices*/
-@media only screen and (max-width:768px){
-    header #branding,
-    header nav,
-    header nav li{
-        float:none;
-        text-align:center;
-        width:100%;
-        margin-top: 10px;
-    }   
-    header{
-        padding-bottom:20px;
-    }
-    header #branding .box img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 15%;
-    }
-    #showcase{
-        height:50vh;
-    }
-    #showcase h1{
-        padding-top:50px;
-        margin:40px;
-    }
-    #about{
-        float:none;
-        text-align:center;
-        padding-right:10%;
-        padding-left:10%;
-    }
-    #about p{
-        text-align:center;
-        clear:both;
-        font-size:20px;
-    }
-    #about .box img{
-        float:none;
-        width: 75%;
-        padding-bottom:0%;
-        padding-left:37px;
-    }
-    #experience{
-        float:none;
-        text-align:center;
-        font-size:17px;
-    }
-    #experience .box1{
-        text-align: center;
-    }
-    #experience .box1 img{
-        float:none;
-        width:200px;
-        padding-left:20px;
-    }
-    #experience .box2{
-        text-align:center;
-        padding-bottom:10%;
-    }
-    #experience .box2 img{
-        float:none;
-        width:200px;
-        padding-left:20px;
-    }
-    #projects {
-        float:none;
-        text-align:center;
-        font-size:17px;
-    }
-    #projects .box1{
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-left:10%;
-        text-align:center;
-        width:80%;
-    }
-    #projects .box2{
-        padding-top: 50px;
-        text-align:center;
-        padding-bottom:10%;
-        padding-left:10%;
-        width:80%;
-    }
-    #projects .box1 img{
-        float:none;
-        padding-left:5%;
-        width: 80%;
-    }
-    #projects .box2 img{
-        float:none;
-        width: 80%;
-    }
-    footer{
-        padding:10px;
-        color: #ffffff;
-        background-color: #705A47;
-        text-align: center;
-    }
+@media only screen and (max-width: 768px) {
+  header #branding,
+  header nav,
+  header nav li {
+    float: none;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+  header {
+    padding-bottom: 20px;
+  }
+  header #branding .box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+  }
+  #showcase {
+    height: 50vh;
+  }
+  #showcase h1 {
+    padding-top: 50px;
+    margin: 40px;
+  }
+  #about {
+    float: none;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  #about p {
+    text-align: center;
+    clear: both;
+    font-size: 20px;
+  }
+  #about .box img {
+    float: none;
+    width: 75%;
+    padding-bottom: 0%;
+    padding-left: 37px;
+  }
+  #experience {
+    float: none;
+    text-align: center;
+    font-size: 17px;
+  }
+  #experience .box1 {
+    text-align: center;
+  }
+  #experience .box1 img {
+    float: none;
+    width: 200px;
+    padding-left: 20px;
+  }
+  #experience .box2 {
+    text-align: center;
+    padding-bottom: 10%;
+  }
+  #experience .box2 img {
+    float: none;
+    width: 200px;
+    padding-left: 20px;
+  }
+  #projects {
+    float: none;
+    text-align: center;
+    font-size: 17px;
+  }
+  #projects .box1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10%;
+    text-align: center;
+    width: 80%;
+  }
+  #projects .box2 {
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    width: 80%;
+  }
+  #projects .box1 img {
+    float: none;
+    padding-left: 5%;
+    width: 80%;
+  }
+  #projects .box2 img {
+    float: none;
+    width: 80%;
+  }
+  footer {
+    padding: 10px;
+    color: #ffffff;
+    background-color: #705a47;
+    text-align: center;
+  }
 }
